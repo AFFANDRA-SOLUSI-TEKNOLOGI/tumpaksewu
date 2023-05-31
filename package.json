@@ -1,8 +1,11 @@
 {
   "name": "@affandra-solusi-teknologi/tumpaksewu",
-  "version": "1.0.0",
+  "version": "2.0.0-dev",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "bunchee ./src/index.jsx -f cjs -o ./dist/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/affandra-solusi-teknologi/tumpaksewu.git"
@@ -16,5 +19,16 @@
     "nextjs",
     "cascading-dropdown"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "peerDependencies": {
+    "next": ">= 6.0.0",
+    "react": ">= 16.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.7",
+    "bunchee": "^3.2.0",
+    "react": "^18.2.0",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4"
+  }
 }
