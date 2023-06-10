@@ -1,6 +1,6 @@
 {
   "name": "@affandra-solusi-teknologi/tumpaksewu",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A package that makes it easy to create cascading dropdowns in nextjs.",
   "main": "dist/index.js",
   "scripts": {
